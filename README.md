@@ -28,7 +28,7 @@ Nesse projeto utilizamos as seguintes tecnologias:
 ```bash
   # Clone o Repositório:
   $ git clone
-   https://github.com/andrecampestre/Ignite-Nodejs-Desafio02
+   https://github.com/jackson2308/todonodejs.git
 
   # Entre no Diretório:
   $ cd Ignite-Nodejs-Desafio02
