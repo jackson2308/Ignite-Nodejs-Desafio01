@@ -31,7 +31,7 @@ Nesse projeto utilizamos as seguintes tecnologias:
    https://github.com/jackson2308/todonodejs.git
 
   # Entre no Diretório:
-  $ cd Ignite-Nodejs-Desafio02
+  $ cd todonodejs
 
   # Instale as Dependências do Projeto:
   $ yarn install
