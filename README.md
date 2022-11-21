@@ -4,16 +4,7 @@
 
 # 📖 Sobre
 
-Segundo desafio da trilha **NodeJS** do **Ignite Pro**. Nesse desafio vimos mais detalhado os middlewares no Express.
-
-Será permitida a criação de um usuário com name e username, bem como fazer o CRUD de todos:
-
-Criar um novo todo;
-Listar todos os todos;
-Alterar o title e deadline de um todo existente;
-Marcar um todo como feito;
-Excluir um todo;
-Tudo isso para cada usuário em específico. Além disso, dessa vez tem um plano grátis onde o usuário só pode criar até dez todos e um plano Pro que irá permitir criar todos ilimitados, isso tudo usando middlewares para fazer as validações necessárias.
+Primeiro desafio da trilha **NodeJS** do **Ignite Pro**. Nesse projeto podemos criar, listar, atualizar e deletar tarefas.
 
 # 👨‍💻 Tecnologias utilizadas
 
@@ -23,22 +14,28 @@ Nesse projeto utilizamos as seguintes tecnologias:
 [![Express Badge](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white&link=https://expressjs.com/pt-br/)](https://expressjs.com/pt-br/)
 
 
+# 🔀 Rotas da Aplicação
+
+- Criar usuário: POST <http://localhost:3333/users>
+- Listar tarefas: GET <http://localhost:3333/todos>
+- Criar tarefas: POST <http://localhost:3333/todos>
+- Atualizar titulo e deadline: PUT <http://localhost:3333/todos/:id>
+- Atualizar done: PATH <http://localhost:3333/todos/:id/done>
+- Deletar tarefa: DELETE <http://localhost:3333/todos/:id>
+
 # ⚙️ Get Started
 
 ```bash
   # Clone o Repositório:
   $ git clone
-   https://github.com/jackson2308/todonodejs.git
+   https://github.com/jackson2308/Ignite-Nodejs-Desafio01.git
 
   # Entre no Diretório:
-  $ cd todonodejs
+  $ cd Ignite-Nodejs-Desafio01
 
   # Instale as Dependências do Projeto:
   $ yarn install
 
-  # Testes:
-  $ yarn test
-  
   # Inicie:
   $ yarn dev
 ```
